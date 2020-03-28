@@ -9,6 +9,7 @@
   "description": "REST service starter for RS School",
   "main": "src/server.js",
   "scripts": {
+    "task1": "node task1/caesar-cipher-cli",
     "start": "nodemon src/server.js",
     "lint": "eslint ./ --ignore-path .gitignore --fix",
     "test": "cross-env DEBUG=rs:* jest --testMatch \"<rootDir>/test/e2e/test/*.test.js\" --noStackTrace",
@@ -50,7 +51,8 @@
     "express": "4.17.1",
     "swagger-ui-express": "4.1.2",
     "uuid": "3.3.3",
-    "yamljs": "0.3.0"
+    "yamljs": "0.3.0",
+    "yargs": "^15.3.1"
   },
   "devDependencies": {
     "eslint": "6.7.2",
