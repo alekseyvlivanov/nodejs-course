@@ -41,7 +41,7 @@ try {
   console.error(`${e.name}: ${e.message}`);
 }
 
-const { inputStream, outputStream, transformStream } = caesarStreams(
+const { inputStream, transformStream, outputStream } = caesarStreams(
   action,
   shift,
   input,
